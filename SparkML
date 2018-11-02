@@ -1,0 +1,11 @@
+
+RDD
+
+val nums = sc.parallelize(Array(1,2,3))
+val squares = nums.map(x=> x*x)
+
+.filter - selects the elements  
+
+
+
+Dataframe
